@@ -1,32 +1,32 @@
 1. Repo Init:
 
-  git init
-  git remote add origin <repo-url>
+   git init
+   git remote add origin <repo-url>
 
-  git push -u origin main
+   git push -u origin main
 
 2. New Branch Creation:
-  git checkout -b develop
-  git push origin develop
+   git checkout -b develop
+   git push origin develop
 
-  git checkout -b feature/login
-  git push origin feature/login
+   git checkout -b feature/login
+   git push origin feature/login
 3. After Changing the files then commit and push:
-  git add .
-  git commit -m "first commit"
-  git push origin main
+   git add .
+   git commit -m "first commit"
+   git push origin main
 
     I used merged in Github manually with compare and using pull request.
  4. Rebase strategy:
-   git checkout feature/login
-   git rebase main
-   *** Don't understand yet perfectly***
+	   git checkout feature/login
+	   git rebase main
+	   *** Don't understand yet perfectly***
 
-   and use interactive rebase using 
-     git rebase -i HEAD~5
+       and use interactive rebase using 
+       git rebase -i HEAD~5
 
-     and inside editor 
-    reword <commit1>
+     ***** inside editor *****
+  reword <commit1>
   squash <commit2>
   squash <commit3>
   squash <commit4>
@@ -34,8 +34,8 @@
 
   After Rebase:
 
-  git push origin feature/profile --force
-
-  and I did mistake many times and this third repo and submit this one
+	  git push origin feature/profile --force
+	
+	  and I did mistake many times and this third repo and submit this one
   
   
